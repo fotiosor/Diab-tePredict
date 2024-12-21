@@ -1,1 +1,1 @@
-# Diab-tePredict
+# DiabetePredict
