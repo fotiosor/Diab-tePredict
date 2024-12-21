@@ -1,0 +1,416 @@
+2024-11-30 23:12:42,791:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:12:42,792:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:12:42,792:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:12:42,792:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:18:19,825:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:18:19,825:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:18:19,825:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:18:19,825:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-30 23:18:22,091:INFO:Initializing load_model()
+2024-11-30 23:18:22,091:INFO:load_model(model_name=modele_fotio, platform=None, authentication=None, verbose=True)
+2024-11-30 23:18:22,307:WARNING:C:\Users\Administrateur\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '63.2.0', 'pycaret': '3.3.2', 'IPython': '8.30.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.24.1', 'pandas': '2.1.4', 'jinja2': '3.1.4', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.6.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.0', 'markupsafe': '2.1.2', 'pickle5': 'Not installed', 'cloudpickle': '3.1.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '21.2.4', 'setuptools': '61.2.0', 'pycaret': '3.3.2', 'IPython': '8.2.0', 'ipywidgets': '7.6.5', 'tqdm': '4.64.0', 'numpy': '1.21.6', 'pandas': '1.4.2', 'jinja2': '2.11.3', 'scipy': '1.7.3', 'joblib': '1.1.0', 'sklearn': '1.0.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': '0.55.1', 'requests': '2.27.1', 'matplotlib': '3.5.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.6.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.13.2', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.8.0', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.0.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.12', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-11-30 23:18:22,343:INFO:Initializing predict_model()
+2024-11-30 23:18:22,343:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2BEB9A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFDFC0>)
+2024-11-30 23:18:22,344:INFO:Checking exceptions
+2024-11-30 23:18:22,344:INFO:Preloading libraries
+2024-11-30 23:18:22,350:INFO:Set up data.
+2024-11-30 23:18:22,358:INFO:Set up index.
+2024-11-30 23:18:29,751:INFO:Initializing predict_model()
+2024-11-30 23:18:29,752:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD1723D30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2C77640>)
+2024-11-30 23:18:29,752:INFO:Checking exceptions
+2024-11-30 23:18:29,752:INFO:Preloading libraries
+2024-11-30 23:18:29,752:INFO:Set up data.
+2024-11-30 23:18:29,758:INFO:Set up index.
+2024-11-30 23:20:14,733:INFO:Initializing predict_model()
+2024-11-30 23:20:14,733:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FC567A830>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFF6D0>)
+2024-11-30 23:20:14,734:INFO:Checking exceptions
+2024-11-30 23:20:14,734:INFO:Preloading libraries
+2024-11-30 23:20:14,734:INFO:Set up data.
+2024-11-30 23:20:14,738:INFO:Set up index.
+2024-11-30 23:20:15,002:INFO:Initializing predict_model()
+2024-11-30 23:20:15,003:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FBCD95270>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFE320>)
+2024-11-30 23:20:15,003:INFO:Checking exceptions
+2024-11-30 23:20:15,003:INFO:Preloading libraries
+2024-11-30 23:20:15,004:INFO:Set up data.
+2024-11-30 23:20:15,009:INFO:Set up index.
+2024-11-30 23:20:29,088:INFO:Initializing predict_model()
+2024-11-30 23:20:29,089:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD1B38430>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFE320>)
+2024-11-30 23:20:29,090:INFO:Checking exceptions
+2024-11-30 23:20:29,090:INFO:Preloading libraries
+2024-11-30 23:20:29,091:INFO:Set up data.
+2024-11-30 23:20:29,094:INFO:Set up index.
+2024-11-30 23:20:29,371:INFO:Initializing predict_model()
+2024-11-30 23:20:29,371:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD1B395A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD1935900>)
+2024-11-30 23:20:29,371:INFO:Checking exceptions
+2024-11-30 23:20:29,371:INFO:Preloading libraries
+2024-11-30 23:20:29,371:INFO:Set up data.
+2024-11-30 23:20:29,386:INFO:Set up index.
+2024-11-30 23:20:32,809:INFO:Initializing predict_model()
+2024-11-30 23:20:32,809:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FBCD95060>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD1B17010>)
+2024-11-30 23:20:32,809:INFO:Checking exceptions
+2024-11-30 23:20:32,809:INFO:Preloading libraries
+2024-11-30 23:20:32,809:INFO:Set up data.
+2024-11-30 23:20:32,816:INFO:Set up index.
+2024-11-30 23:20:33,064:INFO:Initializing predict_model()
+2024-11-30 23:20:33,065:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD1723AF0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2C77F40>)
+2024-11-30 23:20:33,065:INFO:Checking exceptions
+2024-11-30 23:20:33,065:INFO:Preloading libraries
+2024-11-30 23:20:33,066:INFO:Set up data.
+2024-11-30 23:20:33,071:INFO:Set up index.
+2024-11-30 23:20:39,845:INFO:Initializing predict_model()
+2024-11-30 23:20:39,845:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FBCF2BE50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFF760>)
+2024-11-30 23:20:39,846:INFO:Checking exceptions
+2024-11-30 23:20:39,846:INFO:Preloading libraries
+2024-11-30 23:20:39,847:INFO:Set up data.
+2024-11-30 23:20:39,853:INFO:Set up index.
+2024-11-30 23:20:40,177:INFO:Initializing predict_model()
+2024-11-30 23:20:40,178:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2BE9360>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2BFF1C0>)
+2024-11-30 23:20:40,178:INFO:Checking exceptions
+2024-11-30 23:20:40,178:INFO:Preloading libraries
+2024-11-30 23:20:40,179:INFO:Set up data.
+2024-11-30 23:20:40,185:INFO:Set up index.
+2024-11-30 23:20:51,561:INFO:Initializing predict_model()
+2024-11-30 23:20:51,562:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2CB83D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2CA40D0>)
+2024-11-30 23:20:51,564:INFO:Checking exceptions
+2024-11-30 23:20:51,564:INFO:Preloading libraries
+2024-11-30 23:20:51,564:INFO:Set up data.
+2024-11-30 23:20:51,570:INFO:Set up index.
+2024-11-30 23:25:10,151:INFO:Initializing predict_model()
+2024-11-30 23:25:10,151:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2CBA320>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2C77640>)
+2024-11-30 23:25:10,152:INFO:Checking exceptions
+2024-11-30 23:25:10,152:INFO:Preloading libraries
+2024-11-30 23:25:10,152:INFO:Set up data.
+2024-11-30 23:25:10,158:INFO:Set up index.
+2024-11-30 23:31:37,877:INFO:Initializing load_model()
+2024-11-30 23:31:37,878:INFO:load_model(model_name=modele_fotio, platform=None, authentication=None, verbose=True)
+2024-11-30 23:31:37,882:WARNING:C:\Users\Administrateur\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.3.1', 'setuptools': '63.2.0', 'pycaret': '3.3.2', 'IPython': '8.30.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.24.1', 'pandas': '2.1.4', 'jinja2': '3.1.4', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': '0.60.0', 'requests': '2.32.3', 'matplotlib': '3.6.3', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.0', 'markupsafe': '2.1.2', 'pickle5': 'Not installed', 'cloudpickle': '3.1.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.7', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '21.2.4', 'setuptools': '61.2.0', 'pycaret': '3.3.2', 'IPython': '8.2.0', 'ipywidgets': '7.6.5', 'tqdm': '4.64.0', 'numpy': '1.21.6', 'pandas': '1.4.2', 'jinja2': '2.11.3', 'scipy': '1.7.3', 'joblib': '1.1.0', 'sklearn': '1.0.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': '0.55.1', 'requests': '2.27.1', 'matplotlib': '3.5.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.6.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.13.2', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.8.0', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.0.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.12', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-11-30 23:31:42,523:INFO:Initializing predict_model()
+2024-11-30 23:31:42,523:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FBCCDE470>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD1BAD1B0>)
+2024-11-30 23:31:42,523:INFO:Checking exceptions
+2024-11-30 23:31:42,523:INFO:Preloading libraries
+2024-11-30 23:31:42,523:INFO:Set up data.
+2024-11-30 23:31:42,523:INFO:Set up index.
+2024-11-30 23:32:25,360:INFO:Initializing predict_model()
+2024-11-30 23:32:25,360:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2C2C130>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FBCD8AF80>)
+2024-11-30 23:32:25,361:INFO:Checking exceptions
+2024-11-30 23:32:25,362:INFO:Preloading libraries
+2024-11-30 23:32:25,362:INFO:Set up data.
+2024-11-30 23:32:25,364:INFO:Set up index.
+2024-11-30 23:32:26,891:INFO:Initializing predict_model()
+2024-11-30 23:32:26,892:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2C2E8C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2C77B50>)
+2024-11-30 23:32:26,892:INFO:Checking exceptions
+2024-11-30 23:32:26,892:INFO:Preloading libraries
+2024-11-30 23:32:26,893:INFO:Set up data.
+2024-11-30 23:32:26,898:INFO:Set up index.
+2024-11-30 23:33:03,759:INFO:Initializing predict_model()
+2024-11-30 23:33:03,759:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2C2F0D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FBCD8AF80>)
+2024-11-30 23:33:03,759:INFO:Checking exceptions
+2024-11-30 23:33:03,775:INFO:Preloading libraries
+2024-11-30 23:33:03,775:INFO:Set up data.
+2024-11-30 23:33:03,776:INFO:Set up index.
+2024-11-30 23:33:15,065:INFO:Initializing predict_model()
+2024-11-30 23:33:15,065:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021FD2C2F040>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021FD2C74B80>)
+2024-11-30 23:33:15,066:INFO:Checking exceptions
+2024-11-30 23:33:15,066:INFO:Preloading libraries
+2024-11-30 23:33:15,066:INFO:Set up data.
+2024-11-30 23:33:15,071:INFO:Set up index.
+2024-12-21 18:08:59,805:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 18:08:59,805:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 18:08:59,805:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 18:08:59,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 19:11:22,948:WARNING:C:\Users\Administrateur\anaconda3\envs\yolo_env\lib\site-packages\scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+
+2024-12-21 19:11:25,021:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 19:11:25,021:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 19:11:25,021:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 19:11:25,021:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-21 19:11:27,613:INFO:Initializing load_model()
+2024-12-21 19:11:27,613:INFO:load_model(model_name=modele_fotio, platform=None, authentication=None, verbose=True)
+2024-12-21 19:11:27,811:WARNING:C:\Users\Administrateur\AppData\Roaming\Python\Python39\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '24.2', 'setuptools': '75.1.0', 'pycaret': '3.3.2', 'IPython': '8.15.0', 'ipywidgets': '8.1.2', 'tqdm': '4.67.1', 'numpy': '1.22.4', 'pandas': '2.0.3', 'jinja2': '3.1.4', 'scipy': '1.7.3', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': 'Not installed', 'requests': '2.32.3', 'matplotlib': '3.9.2', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '6.1.0', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.20', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '21.2.4', 'setuptools': '61.2.0', 'pycaret': '3.3.2', 'IPython': '8.2.0', 'ipywidgets': '7.6.5', 'tqdm': '4.64.0', 'numpy': '1.21.6', 'pandas': '1.4.2', 'jinja2': '2.11.3', 'scipy': '1.7.3', 'joblib': '1.1.0', 'sklearn': '1.0.2', 'pyod': '2.0.2', 'imblearn': '0.12.4', 'category_encoders': '2.6.4', 'lightgbm': '4.5.0', 'numba': '0.55.1', 'requests': '2.27.1', 'matplotlib': '3.5.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.6.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.13.2', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.8.0', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.0.0', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.9.12', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2024-12-21 19:11:35,811:INFO:Initializing predict_model()
+2024-12-21 19:11:35,812:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000225D6635FD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000225D610AB80>)
+2024-12-21 19:11:35,812:INFO:Checking exceptions
+2024-12-21 19:11:35,812:INFO:Preloading libraries
+2024-12-21 19:11:35,813:INFO:Set up data.
+2024-12-21 19:11:35,821:INFO:Set up index.
+2024-12-21 19:13:07,467:INFO:Initializing predict_model()
+2024-12-21 19:13:07,467:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000225D6109B50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000225D667B040>)
+2024-12-21 19:13:07,467:INFO:Checking exceptions
+2024-12-21 19:13:07,467:INFO:Preloading libraries
+2024-12-21 19:13:07,468:INFO:Set up data.
+2024-12-21 19:13:07,474:INFO:Set up index.
+2024-12-21 19:21:04,101:INFO:Initializing predict_model()
+2024-12-21 19:21:04,101:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000225D666C3D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['diastolic', 'bodymass', 'age',
+                                             'plasma'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LogisticRegression(max_iter=1000, random_state=2024))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000225C70B1EE0>)
+2024-12-21 19:21:04,103:INFO:Checking exceptions
+2024-12-21 19:21:04,104:INFO:Preloading libraries
+2024-12-21 19:21:04,105:INFO:Set up data.
+2024-12-21 19:21:04,113:INFO:Set up index.
